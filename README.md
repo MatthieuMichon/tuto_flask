@@ -6,4 +6,8 @@
 
 The following assumes Python 3.4 is used.
 
-
+Under FC21, the Python package `virtualenv` is offered if not already installed:
+```
+bash: virtualenv: command not found...
+Install package 'python-virtualenv' to provide command 'virtualenv'? [N/y]
+```
