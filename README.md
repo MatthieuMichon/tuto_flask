@@ -1,2 +1,3 @@
-# tuto_flask
-Miguel Grinberg's tutorial on getting the grips with Flask
+# Tuto Flask
+
+[**Miguel Grinberg's** tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) on getting the grips with [*Flask*](http://flask.pocoo.org/).
