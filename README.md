@@ -11,3 +11,9 @@ Under FC21, the Python package `virtualenv` is offered if not already installed:
 bash: virtualenv: command not found...
 Install package 'python-virtualenv' to provide command 'virtualenv'? [N/y]
 ```
+
+Python 3 oblige `pip` now becomes `pip3`:
+```
+flask/bin/pip3 install flask
+```
+
