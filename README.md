@@ -12,16 +12,18 @@ bash: virtualenv: command not found...
 Install package 'python-virtualenv' to provide command 'virtualenv'? [N/y]
 ```
 
-Python 3 oblige `pip` now becomes `pip3`:
+Python 3 oblige some commands must be changed:
 ```
-flask/bin/pip3 install flask
+$ mkdir microblog_part_xxx
+$ cd microblog_part_xxx
+$ virtualenv --python=python3.4 flask
+$ . flask/bin/activate
+```
+The required packages can now be installed in the virtual environment:
+```
+$ flask/bin/pip install flask
 ```
 
 ## Notes
 
-Before running the server, the virtual environment must be activated:
-```
-$ . flask/bin/activate
-$ ./run.py
-```
 Use the `deactivate` command to exit the virtual environment.
