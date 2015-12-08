@@ -17,3 +17,10 @@ Python 3 oblige `pip` now becomes `pip3`:
 flask/bin/pip3 install flask
 ```
 
+## Notes
+
+Before running the server, the virtual environment must be activated:
+```
+$ . flask/bin/activate
+$ ./run.py
+```
