@@ -24,3 +24,4 @@ Before running the server, the virtual environment must be activated:
 $ . flask/bin/activate
 $ ./run.py
 ```
+Use the `deactivate` command to exit the virtual environment.
