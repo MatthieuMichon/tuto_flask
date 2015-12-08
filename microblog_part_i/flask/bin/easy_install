@@ -1,4 +1,4 @@
-#!/home/oyaji/prj/tuto_flask/microblog/flask/bin/python3.4
+#!/home/oyaji/prj/tuto_flask/microblog_part_i/flask/bin/python2
 
 # -*- coding: utf-8 -*-
 import re
